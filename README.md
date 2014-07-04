@@ -1,12 +1,12 @@
 # Lin
 
-https://github.com/questbeat/Lin-Xcode5
+ORIGIN: https://github.com/questbeat/Lin-Xcode5
 
 
 ## Notes
 
 Added a supported function:
-   * LTranslate    <================ Implemented support for custom macro
+   * LTranslate 
 
 LTranslate is:
 

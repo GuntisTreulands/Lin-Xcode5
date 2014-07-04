@@ -62,6 +62,11 @@ static NSString * const LNRegularExpressionPatternTypePropertyKey = @"type";
             pettern = @"NSLocalizedStringWithDefaultValue\\s*\\(\\s*@\"(.*?)\"\\s*,\\s*(.*?)\\s*,\\s*(.*?)\\s*,\\s*(.*?)\\s*,\\s*(.*?)\\s*\\)";
             numberOfRanges = 6;
         }
+        case LNEntityTypeLTranslate:
+        {
+            pettern = @"LTranslate\\s*\\(\\s*@\"(.*?)\"\\s*\\)";
+            numberOfRanges = 2;
+        }
             break;
     }
     
